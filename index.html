@@ -1,0 +1,680 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>J VISUALS | Solomon Itoro Jeremiah</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&family=Outfit:wght@400;700;900&display=swap" rel="stylesheet">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        primary: '#ff0000',
+                        dark: '#0a0a0a',
+                    },
+                    fontFamily: {
+                        sans: ['Inter', 'sans-serif'],
+                        display: ['Outfit', 'sans-serif'],
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        .glass { background: rgba(255, 255, 255, 0.03); backdrop-filter: blur(12px); border: 1px solid rgba(255,255,255,0.1); }
+        .hide-scrollbar::-webkit-scrollbar { display: none; }
+        .step-hidden { display: none; }
+    </style>
+</head>
+<body class="bg-[#0a0a0a] text-white font-sans overflow-x-hidden">
+
+    <!-- Navbar -->
+    <nav class="fixed w-full z-50 glass px-6 py-4 flex justify-between items-center transition-all duration-300">
+        <div class="text-2xl font-bold font-display tracking-tighter">J <span class="text-primary">VISUALS</span></div>
+        <div class="hidden md:flex gap-8 font-medium text-sm">
+            <a href="#home" class="hover:text-primary transition-colors">Home</a>
+            <a href="#about" class="hover:text-primary transition-colors">About</a>
+            <a href="#services" class="hover:text-primary transition-colors">Services</a>
+            <a href="#portfolio" class="hover:text-primary transition-colors">More Of My Work</a>
+        </div>
+        <a href="#wizard" class="bg-primary hover:bg-red-700 px-6 py-2 rounded-full font-bold text-sm transition-all shadow-[0_0_20px_rgba(255,0,0,0.3)]">Start a Project</a>
+    </nav>
+
+    <!-- Hero -->
+   <!-- Hero -->
+<section id="home" class="h-screen flex items-center pt-20 px-6 relative bg-cover bg-center" style="background-image: url('backgroundimage.png');">
+
+    <div class="max-w-6xl mx-auto w-full grid md:grid-cols-2 gap-12 items-center">
+
+        <!-- Hero Text -->
+        <div>
+            <p class="text-primary font-bold tracking-widest uppercase mb-4">
+                J VISUALS
+            </p>
+
+            <h1 class="text-5xl md:text-7xl font-black font-display leading-[0.95] mb-6">
+                SOLOMON 
+                <br>
+                <span class="text-transparent bg-clip-text bg-gradient-to-r from-white to-red-500">
+                   JEREMIAH.
+                </span>
+            </h1>
+
+            <p class="text-neutral-400 text-lg md:text-xl mb-8 max-w-lg">
+               Graphic Designer • Brand & Logo Designer • AI Visual Creator
+                
+            </p>
+
+            <div class="flex flex-wrap gap-4">
+                <a href="#portfolio"
+                   class="bg-white text-black px-8 py-4 rounded-xl font-bold hover:bg-neutral-200 transition-all">
+                    View My Work
+                </a>
+
+                <a href="#wizard"
+                   class="border border-white/20 hover:border-primary hover:text-primary px-8 py-4 rounded-xl font-bold transition-all">
+                    Start a Project
+                </a>
+            </div>
+        </div>
+
+
+        </div>
+
+    </div>
+
+</section>
+
+
+    <!-- About Me -->
+<section id="about" class="py-24 px-6 bg-gradient-to-b from-[#0a0a0a] via-[#120000] to-[#0a0a0a]">
+    <div class="max-w-5xl mx-auto">
+        <h2 class="text-4xl font-display font-bold mb-8 text-center">About Me</h2>
+
+        <div class="glass p-8 md:p-12 rounded-3xl">
+            <h3 class="text-2xl font-bold mb-4">Hi, I'm Solomon Itoro Jeremiah.</h3>
+
+            <p class="text-neutral-400 text-lg leading-relaxed mb-6">
+                I'm a graphic designer passionate about turning ideas
+                into visuals that communicate, connect and inspire. I create designs
+                and brand logos that help individuals, brands and organizations present
+                their ideas in a clear, creative and engaging way.
+                I'm 18 years old, I am a recent secondary school graduate whose
+                passion for visual storytelling has already evolved into a dynamic,
+     		professional career. My journey into the world of digital creativity
+		began early—during my Junior Secondary School (JSS3) years—
+		when I first discovered the power of graphic design. 
+            </p>
+
+            <p class="text-neutral-400 text-lg leading-relaxed">
+		What started as a youthful curiosity quickly transformed into a
+		relentless pursuit of mastering design.
+		Today, I bring a fresh, modern perspective to my work,
+		combining youthful energy with technical precision.
+                I'm constantly learning, experimenting with new creative tools,
+                and exploring how technology and AI can take visual storytelling
+                further.
+		
+            </p>
+       <div class="grid md:grid-cols-3 gap-6 mt-10">
+
+    <div class="bg-white/5 p-6 rounded-2xl">
+        <h4 class="text-red-500 font-bold mb-3">Education</h4>
+        <p class="text-neutral-400 text-sm">
+            Precious Gem Kiddies Nursery & Primary School
+            <br>
+            2017 - 2019
+        </p>
+       <p class="text-neutral-400 text-sm">
+            Nigerian Navy Secondary School, Ire-Sapa Ogbomosho
+            <br>
+            2019 - 2025
+        </p>
+    </div>
+
+   
+    <div class="bg-white/5 p-6 rounded-2xl">
+        <h4 class="text-red-500 font-bold mb-3">My Skills</h4>
+        <p class="text-neutral-400 text-sm">
+            Graphic Design
+            <br>
+            Brand & Logo Design
+            <br>
+            AI Visual Creation
+        </p>
+    </div>
+
+</div>
+        </div>
+    </div>
+</section> 
+    <!-- Services -->
+    <section id="services" class="py-24 px-6 bg-[#0a0a0a] relative overflow-hidden">
+        <div class="absolute inset-0 bg-[radial-gradient(circle_at_top_right,rgba(255,0,0,0.12),transparent_35%)] pointer-events-none"></div>
+        <h2 class="text-4xl font-display font-bold mb-16 text-center">My Services</h2>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-6xl mx-auto">
+            <div class="glass p-8 rounded-2xl group hover:border-primary transition-all">
+                <div class="w-12 h-12 bg-primary/20 flex items-center justify-center rounded-lg mb-6 text-primary">DS</div>
+                <h3 class="text-xl font-bold mb-3">Graphic Design</h3>
+                <p class="text-neutral-400 text-sm mb-6">Compelling visual identities and brand assets that stand out in crowded markets.</p>
+                <button onclick="document.getElementById('wizard').scrollIntoView()" class="text-primary font-bold">Request Service →</button>
+            </div>
+            <div class="glass p-8 rounded-2xl group hover:border-primary transition-all">
+    <div class="w-12 h-12 bg-primary/20 flex items-center justify-center rounded-lg mb-6 text-primary">BL</div>
+
+    <h3 class="text-xl font-bold mb-3">Brand & Logo Design</h3>
+
+    <p class="text-neutral-400 text-sm mb-6">
+        Creative logos and visual identities that help brands look professional, memorable and unique.
+    </p>
+
+    <button onclick="document.getElementById('wizard').scrollIntoView()" class="text-primary font-bold">
+        Request Service →
+    </button>
+</div>		
+           <div class="glass p-8 rounded-2xl group hover:border-primary transition-all">
+    <div class="w-12 h-12 bg-primary/20 flex items-center justify-center rounded-lg mb-6 text-primary">AI</div>
+    <h3 class="text-xl font-bold mb-3">AI Visual Creation</h3>
+    <p class="text-neutral-400 text-sm mb-6">Using AI tools as a creative partner, not a shortcut.</p>
+    <button onclick="document.getElementById('wizard').scrollIntoView()" class="text-primary font-bold">Request Service →</button>
+</div>
+        </div>
+    </section>
+<!-- Portfolio -->
+<section id="portfolio" class="py-24 px-6 bg-gradient-to-b from-[#0a0a0a] via-[#160000] to-[#0a0a0a]">
+    <div class="max-w-6xl mx-auto">
+
+        <h2 class="text-4xl md:text-5xl font-display font-bold mb-4 text-center">
+            More Of My Work
+        </h2>
+
+        <p class="text-neutral-400 text-center max-w-2xl mx-auto mb-10">
+            A selection of my work in graphic design, brand & logo design, and AI visual creation.
+        </p>
+
+        <!-- Filters -->
+        <div class="flex flex-wrap justify-center gap-3 mb-12">
+            <button onclick="filterPortfolio('all')" class="portfolio-filter bg-primary px-5 py-2 rounded-full font-bold">
+                All
+            </button>
+
+            <button onclick="filterPortfolio('design')" class="portfolio-filter bg-white/5 hover:bg-primary px-5 py-2 rounded-full transition-all">
+                Graphic Design
+            </button>
+
+           <button onclick="filterPortfolio('logo')" class="portfolio-filter bg-white/5 hover:bg-primary px-5 py-2 rounded-full transition-all">
+    Brand & Logo Design
+</button>
+
+            <button onclick="filterPortfolio('ai')" class="portfolio-filter bg-white/5 hover:bg-primary px-5 py-2 rounded-full transition-all">
+                AI Visuals
+            </button>
+        </div>
+
+        <!-- Portfolio Grid -->
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+
+<!-- Design 1 -->
+<div class="portfolio-item design glass rounded-2xl overflow-hidden group">
+    <img src="design1.png" alt="Pizza Advertisement" onclick="openImage('design1.png')" class="w-full h-80 object-cover group-hover:scale-105 transition-transform duration-500 cursor-pointer">
+    <div class="p-6">
+        <p class="text-primary text-sm font-bold mb-2">GRAPHIC DESIGN</p>
+        <h3 class="text-xl font-bold">Pizza Advertisement</h3>
+ 
+    </div>
+</div>
+
+<!-- Design 2 -->
+<div class="portfolio-item design glass rounded-2xl overflow-hidden group">
+    <img src="design2.png" alt="Laundry Service Design" onclick="openImage('design2.png')" class="w-full h-80 object-cover group-hover:scale-105 transition-transform duration-500 cursor-pointer">
+    <div class="p-6">
+        <p class="text-primary text-sm font-bold mb-2">GRAPHIC DESIGN</p>
+        <h3 class="text-xl font-bold">Laundry Service Design</h3>
+    </div>
+</div>
+
+<!-- Design 3 -->
+<div class="portfolio-item design glass rounded-2xl overflow-hidden group">
+    <img src="design3.png" alt="Product Advertisement" onclick="openImage('design3.png')" class="w-full h-80 object-cover group-hover:scale-105 transition-transform duration-500 cursor-pointer">
+    <div class="p-6">
+        <p class="text-primary text-sm font-bold mb-2">GRAPHIC DESIGN</p>
+        <h3 class="text-xl font-bold">Product Advertisement</h3>
+    </div>
+</div>
+
+<!-- Design 4 -->
+<div class="portfolio-item design glass rounded-2xl overflow-hidden group">
+    <img src="design4.png" alt="Worship Flyer" onclick="openImage('design4.png')" class="w-full h-80 object-cover group-hover:scale-105 transition-transform duration-500 cursor-pointer">
+    <div class="p-6">
+        <p class="text-primary text-sm font-bold mb-2">GRAPHIC DESIGN</p>
+        <h3 class="text-xl font-bold">Worship Event Flyer</h3>
+    </div>
+</div>
+
+<!-- Design 5 -->
+<div class="portfolio-item design glass rounded-2xl overflow-hidden group">
+    <img src="design5.png" alt="Wedding Invitation" onclick="openImage('design5.png')" class="w-full h-80 object-cover group-hover:scale-105 transition-transform duration-500 cursor-pointer">
+    <div class="p-6">
+        <p class="text-primary text-sm font-bold mb-2">GRAPHIC DESIGN</p>
+        <h3 class="text-xl font-bold">Wedding Invitation</h3>
+    </div>
+</div>
+
+<!-- Design 6 -->
+<div class="portfolio-item design glass rounded-2xl overflow-hidden group">
+    <img src="design6.png" alt="Church Promotion Flyer" onclick="openImage('design6.png')" class="w-full h-80 object-cover group-hover:scale-105 transition-transform duration-500 cursor-pointer">
+    <div class="p-6">
+        <p class="text-primary text-sm font-bold mb-2">GRAPHIC DESIGN</p>
+        <h3 class="text-xl font-bold">Church Promotion Flyer</h3>
+    </div>
+</div>
+<!-- Logo Project 1 -->
+<div class="portfolio-item logo glass rounded-2xl overflow-hidden group">
+    <img src="logo1.png"
+         alt="Lumina Tech Logo"
+         class="w-full h-80 object-contain bg-black group-hover:scale-105 transition-transform duration-500">
+
+    <div class="p-6">
+        <p class="text-primary text-sm font-bold mb-2">BRAND & LOGO DESIGN</p>
+        <h3 class="text-xl font-bold">Lumina Tech </h3>
+        <p class="text-neutral-400 text-sm mt-2">Technology Brand</p>
+    </div>
+</div>
+
+<!-- Logo Project 2 -->
+<div class="portfolio-item logo glass rounded-2xl overflow-hidden group">
+    <img src="logo2.png"
+         alt="Hot Pot Restaurant & Bar Logo"
+         class="w-full h-80 object-contain bg-black group-hover:scale-105 transition-transform duration-500">
+
+    <div class="p-6">
+        <p class="text-primary text-sm font-bold mb-2">BRAND & LOGO DESIGN</p>
+        <h3 class="text-xl font-bold">Hot Pot Restaurant & Bar</h3>
+        <p class="text-neutral-400 text-sm mt-2">Food Brand</p>
+    </div>
+</div>
+
+<!-- Logo Project 3 -->
+<div class="portfolio-item logo glass rounded-2xl overflow-hidden group">
+    <img src="logo3.png"
+         alt="APEX FITNESS"
+         class="w-full h-80 object-contain bg-black group-hover:scale-105 transition-transform duration-500">
+
+    <div class="p-6">
+        <p class="text-primary text-sm font-bold mb-2">BRAND & LOGO DESIGN</p>
+        <h3 class="text-xl font-bold">Apex Fitness</h3>
+        <p class="text-neutral-400 text-sm mt-2">Fitness Brand</p>
+    </div>
+</div>
+
+<!-- AI Video 1 -->
+<div class="portfolio-item ai glass rounded-2xl overflow-hidden group">
+    <video controls class="w-full h-80 object-contain bg-black">
+    <source src="aivideo1.mp4" type="video/mp4">
+    Your browser does not support video playback.
+</video>
+
+    <div class="p-6">
+        <p class="text-primary text-sm font-bold mb-2">AI VISUAL CREATION</p>
+        <h3 class="text-xl font-bold">AI Video Project 1</h3>
+    </div>
+</div>
+
+<!-- AI Video 2 -->
+<div class="portfolio-item ai glass rounded-2xl overflow-hidden group">
+    <div class="flex justify-center bg-black">
+        <video controls class="h-80 w-auto max-w-full object-contain">
+            <source src="aivideo2.mp4" type="video/mp4">
+            Your browser does not support video playback.
+        </video>
+    </div>
+
+    <div class="p-6">
+        <p class="text-primary text-sm font-bold mb-2">AI VISUAL CREATION</p>
+        <h3 class="text-xl font-bold">AI Video Project 2</h3>
+    </div>
+</div>
+
+<!-- AI Video 3 -->
+<div class="portfolio-item ai glass rounded-2xl overflow-hidden group">
+    <div class="flex justify-center bg-black">
+        <video controls class="h-80 w-auto max-w-full object-contain">
+            <source src="aivideo3.mp4" type="video/mp4">
+            Your browser does not support video playback.
+        </video>
+    </div>
+
+    <div class="p-6">
+        <p class="text-primary text-sm font-bold mb-2">AI VISUAL CREATION</p>
+        <h3 class="text-xl font-bold">AI Video Project 3</h3>
+    </div>
+</div>
+</div>
+
+<!-- More Work -->
+<div class="text-center mt-12">
+    <p class="text-neutral-400 mb-4">
+        Want to see more of my work?
+    </p>
+
+    <a href="https://solomonjeremiah.my.canva.site/"
+       target="_blank"
+       rel="noopener noreferrer"
+       class="inline-block bg-primary hover:bg-red-700 px-7 py-3 rounded-full font-bold transition-all">
+        Visit My Canva Portfolio →
+    </a>
+</div>
+
+</section>
+<!-- Cleint Reviews -->
+<section id="testimonials" class="py-24 px-6 bg-gradient-to-b from-[#0a0a0a] via-[#120000] to-[#0a0a0a]">
+    <div class="max-w-6xl mx-auto">
+
+        <h2 class="text-4xl md:text-5xl font-display font-bold mb-4 text-center">
+            What People Say
+        </h2>
+
+        <p class="text-neutral-400 text-center max-w-2xl mx-auto mb-12">
+            Feedback from people I've worked with.
+        </p>
+
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+
+            <!-- Review 1 -->
+            <div class="glass p-7 rounded-2xl">
+                <div class="flex items-center gap-4 mb-5">
+                    <img src="jamessmith.jpg"
+                         class="w-14 h-14 rounded-full object-cover"
+                         alt="Client">
+
+                    <div>
+                        <h3 class="font-bold">James Smith</h3>
+                        <p class="text-neutral-500 text-sm">Business Man</p>
+                    </div>
+                </div>
+
+                <div class="text-yellow-400 mb-4">
+                    ★★★★★
+                </div>
+
+                <p class="text-neutral-400 leading-relaxed">
+                    "The design was creative, clean and exactly what I needed.
+                    J VISUALS really brought the idea to life."
+                </p>
+            </div>
+
+
+            <!-- Review 2 -->
+            <div class="glass p-7 rounded-2xl">
+                <div class="flex items-center gap-4 mb-5">
+                    <img src="johnfranklinjones.jpg"
+                         class="w-14 h-14 rounded-full object-cover"
+                         alt="Client">
+
+                    <div>
+                        <h3 class="font-bold">John Franklin Jones</h3>
+                        <p class="text-neutral-500 text-sm">Real Estate Agent</p>
+                    </div>
+                </div>
+
+                <div class="text-yellow-400 mb-4">
+                    ★★★★★
+                </div>
+
+                <p class="text-neutral-400 leading-relaxed">
+                    "I loved the creativity and attention to detail.
+                    The final result looked professional and impressive."
+                </p>
+            </div>
+
+
+            <!-- Review 3 -->
+            <div class="glass p-7 rounded-2xl">
+                <div class="flex items-center gap-4 mb-5">
+                    <img src="katerebeccamiller.jpg"
+                         class="w-14 h-14 rounded-full object-cover"
+                         alt="Client">
+
+                    <div>
+                        <h3 class="font-bold">Kate Rebecca Miller</h3>
+                        <p class="text-neutral-500 text-sm">Educational Centres</p>
+                    </div>
+                </div>
+
+                <div class="text-yellow-400 mb-4">
+                    ★★★★★
+                </div>
+
+                <p class="text-neutral-400 leading-relaxed">
+                    "Professional work, great creativity and a very good
+                    understanding of the project."
+                </p>
+            </div>
+
+        </div>
+    </div>
+</section>
+    <!-- Start a Project -->
+<section id="wizard" class="py-24 px-6 bg-gradient-to-b from-[#0a0a0a] via-[#160000] to-[#0a0a0a]">
+    <div class="max-w-3xl mx-auto">
+
+        <div class="text-center mb-12">
+            <p class="text-primary font-bold uppercase tracking-widest mb-3">
+                Work With Me
+            </p>
+
+            <h2 class="text-4xl md:text-5xl font-display font-bold mb-4">
+                Start a Project
+            </h2>
+
+            <p class="text-neutral-400">
+                Tell me what you need and let's turn your idea into something amazing.
+            </p>
+        </div>
+
+        <div class="glass p-8 md:p-10 rounded-3xl">
+
+            <!-- Step 1 -->
+            <div id="step-1" class="step">
+
+                <label class="block text-sm font-bold mb-3">
+                    What service do you need?
+                </label>
+
+                <select id="proj-cat"
+                    class="w-full bg-black border border-white/10 p-4 rounded-xl text-white">
+
+                    <option>Graphic Design</option>
+                    <option>Brand & Logo Design	</option>
+                    <option>AI Visual Creation</option>
+
+                </select>
+
+                <button onclick="nextStep(2)"
+                    class="mt-6 w-full bg-primary py-4 rounded-xl font-bold hover:bg-red-700 transition-all">
+                    Continue →
+                </button>
+
+            </div>
+
+
+            <!-- Step 2 -->
+            <div id="step-2" class="step step-hidden">
+
+                <label class="block text-sm font-bold mb-3">
+                    Tell me about your project
+                </label>
+
+                <textarea id="proj-desc"
+                    placeholder="Describe what you want me to create..."
+                    class="w-full bg-black border border-white/10 p-4 rounded-xl text-white h-36 resize-none"></textarea>
+
+                <div class="flex gap-4 mt-6">
+
+                    <button onclick="nextStep(1)"
+                        class="w-1/2 border border-white/10 py-4 rounded-xl hover:border-primary transition-all">
+                        ← Back
+                    </button>
+
+                    <button onclick="nextStep(3)"
+                        class="w-1/2 bg-primary py-4 rounded-xl font-bold hover:bg-red-700 transition-all">
+                        Continue →
+                    </button>
+
+                </div>
+
+            </div>
+
+
+            <!-- Step 3 -->
+            <div id="step-3" class="step step-hidden">
+
+                <label class="block text-sm font-bold mb-3">
+                    How would you like me to contact you?
+                </label>
+
+                <select id="contact-method"
+                    class="w-full bg-black border border-white/10 p-4 rounded-xl text-white">
+
+                    <option value="whatsapp">WhatsApp</option>
+                    <option value="email">Email</option>
+
+                </select>
+
+                <div class="flex gap-4 mt-6">
+
+                    <button onclick="nextStep(2)"
+                        class="w-1/2 border border-white/10 py-4 rounded-xl hover:border-primary transition-all">
+                        ← Back
+                    </button>
+
+                    <button onclick="submitWizard()"
+                        class="w-1/2 bg-primary py-4 rounded-xl font-bold hover:bg-red-700 transition-all">
+                        Send Request 🚀
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+</section> 
+<!-- Contact -->
+<section id="contact" class="py-24 px-6 bg-gradient-to-b from-[#0a0a0a] via-[#120000] to-[#0a0a0a]">
+    <div class="max-w-5xl mx-auto text-center">
+
+        <h2 class="text-4xl font-display font-bold mb-4">
+            Let's Work Together
+        </h2>
+
+        <p class="text-neutral-400 mb-12">
+            Have a project in mind? I'd love to hear about it.
+        </p>
+
+        <div class="grid md:grid-cols-3 gap-6">
+
+            <!-- WhatsApp -->
+            <a href="https://wa.me/2349117546020"
+               target="_blank"
+               class="glass p-8 rounded-2xl hover:border-primary transition-all">
+                <div class="text-primary text-3xl mb-4">WA</div>
+                <h3 class="font-bold text-xl mb-2">WhatsApp</h3>
+                <p class="text-neutral-400 text-sm">
+                    Chat with me directly
+                </p>
+            </a>
+
+            <!-- Email -->
+            <a href="mailto:anthonyudo78@gmail.com"
+               class="glass p-8 rounded-2xl hover:border-primary transition-all">
+                <div class="text-primary text-3xl mb-4">@</div>
+                <h3 class="font-bold text-xl mb-2">Email</h3>
+                <p class="text-neutral-400 text-sm">
+                    Send me an email
+                </p>
+            </a>
+
+            <!-- TikTok -->
+            <a href="https://www.tiktok.com/@jvisuals25"
+               target="_blank"
+               class="glass p-8 rounded-2xl hover:border-primary transition-all">
+                <div class="text-primary text-3xl mb-4">TT</div>
+                <h3 class="font-bold text-xl mb-2">TikTok</h3>
+                <p class="text-neutral-400 text-sm">
+                    @jvisuals25
+                </p>
+            </a>
+
+        </div>
+
+    </div>
+</section>
+    <!-- Footer -->
+    <footer class="py-12 border-t border-white/10 px-6">
+        <div class="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-12">
+            <div>
+                <h4 class="font-bold text-lg mb-4">J VISUALS</h4>
+                <p class="text-neutral-500 text-sm">Crafting premium digital experiences for forward-thinking brands.</p>
+            </div>
+            <div>
+                <h4 class="font-bold text-lg mb-4">Contact</h4>
+                <a href="mailto:anthonyudo78@gmail.com" class="text-neutral-400 hover:text-primary transition-colors">anthonyudo78@gmail.com</a>
+            </div>
+            <div class="flex gap-4">
+                <a href="#" class="w-10 h-10 rounded-full bg-white/5 flex items-center justify-center hover:bg-primary transition-colors">IG</a>
+                <a href="#" class="w-10 h-10 rounded-full bg-white/5 flex items-center justify-center hover:bg-primary transition-colors">TW</a>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Wizard Logic
+        let state = { category: '', desc: '', method: 'email' };
+        
+        function nextStep(step) {
+            document.querySelectorAll('.step').forEach(s => s.classList.add('step-hidden'));
+            document.getElementById('step-' + step).classList.remove('step-hidden');
+        }
+
+        function submitWizard() {
+            const cat = document.getElementById('proj-cat').value;
+            const desc = document.getElementById('proj-desc').value;
+            const method = document.getElementById('contact-method').value;
+
+            if(method === 'whatsapp') {
+                const phone = "2349117546020";
+                const msg = `Hi J Visuals, I need help with: ${cat}. Details: ${desc}`;
+                window.open(`https://wa.me/${phone}?text=${encodeURIComponent(msg)}`, '_blank');
+            } else {
+                alert("Thanks! I will reach out to you via email shortly.");
+            }
+        }
+function filterPortfolio(category) {
+    const items = document.querySelectorAll('.portfolio-item');
+    const buttons = document.querySelectorAll('.portfolio-filter');
+
+    // Show the selected category
+    items.forEach(item => {
+        if (category === 'all' || item.classList.contains(category)) {
+            item.style.display = 'block';
+        } else {
+            item.style.display = 'none';
+        }
+    });
+
+    // Highlight the active category
+    buttons.forEach(button => {
+        button.classList.remove('bg-primary');
+        button.classList.add('bg-white/5');
+    });
+
+    // Find the button that was clicked
+    event.currentTarget.classList.remove('bg-white/5');
+    event.currentTarget.classList.add('bg-primary');
+}
+function openImage(image) {
+    window.open(image, '_blank');
+}
+    </script>
+</body>
+</html>
